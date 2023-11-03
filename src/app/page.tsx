@@ -25,12 +25,12 @@ function App() {
 
   return (
     <div className="w-full h-screen flex items-center">
-      <div className="w-[430px] mx-auto text-center bg-[#10303c] h-[600px] rounded-md p-5">
+      <div className="lg:w-[430px] w-[370px] mx-auto text-center bg-[#10303c] h-[600px] rounded-md p-5">
         <h1 className="text-4xl italic font-bold mb-8 text-white pt-2">Todo List</h1>
-        <form onSubmit={handleForm} className="flex justify-between items-center">
+        <form onSubmit={handleForm} className="flex justify-between items-center -ml-2">
           <input
             className="placeholder:text-gray-500 
-            rounded-lg border-2 border-[#53555f] w-[270px] h-14 p-5 mb-5 bg-black text-white"
+            rounded-lg border-2 border-[#53555f] lg:w-[270px] w-[230px] h-14 p-5 mb-5 bg-black text-white"
             type="text"
             placeholder="Add Todo"
             value={todo}
