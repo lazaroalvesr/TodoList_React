@@ -11,10 +11,15 @@ const key = "todoList";
 export default function FormularioTodoList() {
 
     const [todo, setTodo] = useState<string>("");
-    const [todoList, setTodoList] = useState<TodoItem[]>(() => {
-        const local = window.localStorage.getItem(key);
-        return local ? JSON.parse(local) : [];
+    const[todoList, setTodoList] = useState<TodoItem[]>(() => {
+        if (typeof window !== 'undefined') {
+            const local = window.localStorage.getItem(key);
+            return local ? JSON.parse(local) : [];
+        } else {
+            return [];
+        }
     });
+
 
     useEffect(() => {
         window.localStorage.setItem(key, JSON.stringify(todoList));
