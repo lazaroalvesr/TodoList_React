@@ -19,7 +19,7 @@ Uma aplicação simples de **Lista de Tarefas (Todo List)**, desenvolvida com **
 
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/lazaroalvesr/TodoList_React
+    git clone https://github.com/lazaroalvesr/TodoList_React.git
     ```
 
 2. Navegue até o diretório do projeto:
