@@ -45,8 +45,6 @@ Uma aplicação simples de **Lista de Tarefas (Todo List)**, desenvolvida com **
 - **Marcar uma tarefa como concluída**: Clique no ícone de "check" ao lado da tarefa.
 - **Remover uma tarefa**: Clique no ícone de "lixeira" para remover uma tarefa.
 
-## Licença
-
 ## *✍️ *Autor**
 - [@lazaroalvesr](https://github.com/lazaroalvesr)
 
