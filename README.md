@@ -6,7 +6,7 @@ Uma aplicação simples de **Lista de Tarefas (Todo List)**, desenvolvida com **
 
 - **React**: Biblioteca JavaScript para a construção da interface do usuário.
 - **TypeScript**: Lógica de funcionalidade da aplicação.
-- **CSS/Tailwind CSS**: Estilização e design responsivo da aplicação.
+- **Tailwind CSS**: Estilização e design responsivo da aplicação.
 
 ## Funcionalidades
 
